@@ -1,0 +1,41 @@
+#image {
+  background-image: url(img/spring.jpg);
+}
+
+.content {
+  border-bottom: double 6px #87CEFA;
+}
+
+.under {
+  background: linear-gradient(transparent 70%, #ff99ab 70%);
+}
+
+.under02 {
+  background: linear-gradient(transparent 70%, skyblue 70%);
+}
+
+.under03 {
+  background: linear-gradient(transparent 70%, lime 70%);
+}
+
+.under04 {
+  background: linear-gradient(transparent 70%, hotpink 70%);
+}
+
+@media (min-width: 900px) {
+  #info {
+    width: calc(50% - 32px);
+  }
+
+  #img {
+    width: 400px;
+    height: 270px;
+    margin-right: 60px;
+  }
+
+  #photo {
+    width: 400px;
+    height: 270px;
+    margin-left: 60px;
+  }
+}
